@@ -1,7 +1,8 @@
 
 ## Flix Part 2
 
-### User Stories
+### Overview
+I am going to extend our Flicks app to allow users to get more information about a particular movie in a movie details screen. Then, we'll add a tab bar to allow users to view movies in a grid view (Collection View) from different endpoints of the MovieDB API.
 
 #### REQUIRED (10pts)
 - [x] (5pts) User can tap a cell to see more details about a particular movie.
@@ -16,4 +17,6 @@
 <img src= "https://i.imgur.com/0M9FrFy.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+1. getting the error of (Thread 1 :breakpoint 1.1) when I expected to see the additional page with full description of an individual movie. 
+2. encountering error message of thread1:signal SIGABRT, which indicating I might have an extra outlet there, a duplicate, or an extra one that's not connected. Therefore, I realized it is very important to indicate the controller before coding on the panel. 
+3. Layout is the most challenging part of this project. 
